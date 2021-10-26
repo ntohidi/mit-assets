@@ -8,3 +8,25 @@ body{
   background-color: #F6F8FA;
   color: #2196f3;
 }
+
+.ode-Box-header{
+  background-color: #deeaf6;
+}
+
+.gwt-StackPanelItem{
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.gwt-TreeItem-selected{
+  background-color: #ffd33d;
+}
+
+.ode-PropertiesComponentName{
+  background-color: #2196f3;
+}
+
+.ode-Box-content{
+  background-color: #ffffff;
+}
+

@@ -71,6 +71,14 @@ function init() {
     })
 
     document.getElementsByClassName("gwt-HTML")[4].children[0].href = "https://kidocode.com";
+    document.getElementsByTagName("title")[0].text = "Cubie Mobile App";
+    let favicon = document.createElement('link');
+    favicon.rel="shortcut icon";
+    favicon.href='https://kidocode.io/statics/img/logo/cubie-white.svg';
+    favicon.sizes="32x32";
+    favicon.type='image/png';
+    document.getElementsByTagName("head")[0].append(favicon);
+
     
 }
 

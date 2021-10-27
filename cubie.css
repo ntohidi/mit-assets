@@ -3,3 +3,65 @@ body{
   background-color: #F6F8FA;
   background-image: none;
 }
+
+.ya-Toolbar{
+  background-color: #F6F8FA;
+  color: #2196f3;
+}
+
+.ode-Box-header{
+  background-color: #deeaf6;
+}
+
+.gwt-StackPanelItem{
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.gwt-TreeItem-selected{
+  background-color: #ffd33d;
+}
+
+.ode-PropertiesComponentName{
+  background-color: #2196f3;
+}
+
+.ode-Box-content{
+  background-color: #ffffff;
+}
+
+.ode-PropertiesPanel{
+  background-color: #ffffff;
+}
+
+.ode-TopPanel{
+  background-color: #222222;
+  background-image: none;
+  color: #ffd33d;
+}
+
+.ode-StatusPanel{
+  background-color: #222222;
+  background-image: none;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

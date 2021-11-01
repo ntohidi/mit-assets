@@ -3,13 +3,17 @@ function init() {
     /**
      * 1 - CHANGE MAIN LOGO
      */
-    // get all the elements that have 'ode-Logo' class 
-    let logo = document.getElementsByClassName("ode-Logo");
-    // change src attribute and change the logo to Cubie logo
-    logo[0].src = "https://kidocode.io/statics/img/logo/cubie-black.svg"
+    try {        
+        // get all the elements that have 'ode-Logo' class 
+        let logo = document.getElementsByClassName("ode-Logo");
+        // change src attribute and change the logo to Cubie logo
+        logo[0].src = "https://kidocode.io/statics/img/logo/cubie-black.svg"
+    } catch(e) {}
 
-    document.getElementsByClassName("gwt-HTML")[4].children[0].href = "https://kidocode.com";
-    document.getElementsByTagName("title")[0].text = "Cubie Mobile App";
+    try {
+        document.getElementsByClassName("gwt-HTML")[4].children[0].href = "https://kidocode.com";
+        document.getElementsByTagName("title")[0].text = "Cubie Mobile App";
+    } catch(e) {}
     let favicon = document.createElement('link');
     favicon.rel="shortcut icon";
     favicon.href='https://kidocode.io/statics/img/logo/cubie-white.svg';

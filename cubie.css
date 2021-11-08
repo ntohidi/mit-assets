@@ -5,8 +5,8 @@ body{
 }
 
 .ya-Toolbar{
-  background-color: #F6F8FA;
-  color: #2196f3;
+  background-color: #F6F8FA !important;
+  color: #2196f3 !important;
 }
 
 .ode-Box-header{

@@ -35,7 +35,7 @@ body{
 }
 
 .ode-TopPanelButton ode-TopPanelButton-up{
-  background-color: red;
+  background-color: red !important;
 }
 
 .ode-TopPanel{

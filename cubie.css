@@ -5,8 +5,8 @@ body{
 }
 
 .ya-Toolbar{
-  background-color: #F6F8FA !important;
-  color: #2196f3 !important;
+  background-color: #F6F8FA;
+  color: #2196f3;
 }
 
 .ode-Box-header{
@@ -14,8 +14,8 @@ body{
 }
 
 .gwt-StackPanelItem{
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: #2196f3 !important;
+  color: #ffffff !important;
 }
 
 .gwt-TreeItem-selected{
@@ -35,7 +35,7 @@ body{
 }
 
 .ode-TopPanelButton ode-TopPanelButton-up{
-  background-color: red !important;
+  background-color: red;
 }
 
 .ode-TopPanel{

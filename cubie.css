@@ -13,7 +13,7 @@ body{
   background-color: #deeaf6;
 }
 
-.gwt-StackPanelItem{
+.gwt-StackPanelItem div{
   background-color: #2196f3 !important;
   color: #ffffff !important;
 }
